@@ -1,9 +1,8 @@
 <?php 
 //main file to call classes
-require_once('interface/dotSyntax-interface.php');
-require_once('interface/programming-class.php');
+require_once('static/talk-class.php');
 
-$programming = new Programming();
+Talk::Hi();
 
 
 
