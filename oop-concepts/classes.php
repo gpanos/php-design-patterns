@@ -1,9 +1,11 @@
 <?php 
 //main file to call classes
-require_once('magic-methods/test-class.php');
+require_once('encaptulation/test-class.php');
 
 $test = new Test();
-$test(4);
+$test->SetName('john');
+$test->_Name;
+echo $test->GetName();
 
 
 
