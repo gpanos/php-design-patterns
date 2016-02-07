@@ -1,8 +1,10 @@
 <?php 
 //main file to call classes
-require_once('static/talk-class.php');
+require_once('magic-methods/test-class.php');
 
-Talk::Hi();
+$test = new Test();
+$test(4);
+
 
 
 
