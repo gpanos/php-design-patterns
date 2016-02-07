@@ -1,11 +1,9 @@
 <?php 
 //main file to call classes
-require_once('encaptulation/test-class.php');
+require_once('type-hint/type-hint.php');
 
-$test = new Test();
-$test->SetName('john');
-$test->_Name;
-echo $test->GetName();
+new Foo(new Test);
+
 
 
 
